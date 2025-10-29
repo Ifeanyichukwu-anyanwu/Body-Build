@@ -1,0 +1,146 @@
+#heading {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#hair {
+    background-color: brown;
+    height: 30px;
+    width: 120px;
+    position: relative;
+    top: 20px;
+    left: 190px;
+    z-index: 20;
+}
+
+#leftside {
+    background-color: brown;
+    height: 30px;
+    width: 20px;
+    position: relative;
+    left: 110px;
+    bottom: -20px;;
+    z-index: 20;
+}
+
+#rightside {
+    background-color: brown;
+    height: 30px;
+    width: 20px;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    z-index: 20;
+}
+
+
+#head {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 200px;
+
+}
+
+
+#lefteye {
+    background-color: black;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: 37.5px;
+    left: 20px;
+    transform: rotate(20deg);
+}
+
+#righteye {
+    background-color: black;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    left: 70px;
+    top: 13px;
+    transform: rotate(20deg);
+}
+
+#mouth {
+    background-color: black;
+    height: 10px;
+    width: 20px;
+    position: relative;
+    top: 25px;
+    left: 40px;
+}
+
+#body {
+    background-color: blue;
+    width: 100px;
+    height: 200px;
+    position: relative;
+    left: 200px;
+
+}
+
+#lefthand {
+    background-color: yellow;
+    width: 50px;
+    height: 200px;
+    position: relative;
+    left: 150px;
+    bottom: 200px;
+
+}
+
+
+#righthand {
+    background-color: yellow;
+    width: 50px;
+    height: 100px;
+    position: relative;
+    left: 300px;
+    bottom: 400px;
+
+}
+
+#rightelbow {
+    background-color: yellow;
+    height: 100px;
+    width: 50px;
+    position: relative;
+    bottom: 400px;
+    left: 300px;
+    transform: rotate(-80deg);
+    transform-origin: top right;
+}
+
+#leftleg {
+    background-color: green;
+    width: 50px;
+    height: 200px;
+    position: relative;
+    left: 250px;
+    bottom: 400px;
+    transform: rotate(-20deg);
+    transform-origin: top right;
+}
+
+#rightleg {
+    background-color: green;
+    width: 50px;
+    height: 200px;
+    position: relative;
+    left: 200px;
+    bottom: 600px;
+    transform: rotate(20deg);
+    transform-origin: top left;
+}
+
+#blockyhuman {
+    position: fixed;
+    left: 25%;
+}
+
+p {
+    height: 5000px;
+}
